@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins, Inter var', 'system-ui';
+  font-feature-settings: 'salt', 'cv11', 'ccmp', 'kern';
+  overscroll-behavior-y: none;
+  text-rendering: optimizeLegibility;
+  @apply antialiased;
+  @apply text-stone-900 bg-stone-50;
+}
