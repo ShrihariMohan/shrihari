@@ -131,7 +131,7 @@ const Home: NextPage = () => {
           <h2 className="mt-14 text-sm font-semibold uppercase  lg:mb-5 lg:mt-20">Work</h2>
           <Link href="https://www.linkedin.com/company/ipos-systems/about/" passHref>
             <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
-              <h1 className="text-xl font-semibold lg:text-3xl">iPOS Systems</h1>
+              <h1 className="text-xl font-semibold lg:text-3xl">Dejavoo</h1>
               <small>May 2022 - Current, Full-stack developer</small>
               <p className="mt-2"> One company, one place, one system for all payment solutions needs.</p>
             </a>
