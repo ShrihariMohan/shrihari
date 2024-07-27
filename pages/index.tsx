@@ -52,13 +52,13 @@ const Home: NextPage = () => {
             </Link>
             <div className="mt-2 flex items-center gap-2">
               <a rel="noreferrer" href="https://twitter.com/papashrihari" target="_blank" >
-                <img src='/icons/twitter.svg' className="w-5 h-5 hover:cursor-pointer" />
+                <img src='/icons/twitter.svg' className="h-5 w-5 hover:cursor-pointer" />
               </a>
               <a rel="noreferrer" href="https://github.com/ShrihariMohan" target="_blank" >
-                <img src='/icons/github.svg' className="w-6 h-6 hover:cursor-pointer" />
+                <img src='/icons/github.svg' className="h-6 w-6 hover:cursor-pointer" />
               </a>
               <a rel="noreferrer" href="https://www.linkedin.com/in/shriharimohan/" target="_blank" >
-                <img src='/icons/linkedin.svg' className="w-6 h-6 hover:cursor-pointer" />
+                <img src='/icons/linkedin.svg' className="h-6 w-6 hover:cursor-pointer" />
               </a>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
         <div className="py-14 lg:w-1/2 lg:py-20">
           <h2 className="text-sm font-semibold uppercase  lg:mb-5">Products</h2>
           <Link href="https://docsai.app/" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">DocsAI</h1>
               <small> Apr 2023, docsai.app</small>
               <p className="mt-2 text-base">
@@ -77,18 +77,8 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href="https://sharejson.com/" >
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
-              <h1 className="text-xl font-semibold lg:text-3xl">Sharejson</h1>
-              <small> Jan 2024, sharejson.com</small>
-              <p className="mt-2 text-base">
-                Ditch coding delays! Share JSON & Mock APIs instantly, for free. No servers, no fees. Prototype apps,
-                test integrations, build demos.
-              </p>
-            </a>
-          </Link>
           <Link href="https://localhost-og-checker.vercel.app/" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">Localhost opengraph Tester</h1>
               <small> Feb 2024, localhost-og-checker.vercel.app</small>
               <p className="mt-2 text-base">
@@ -98,10 +88,32 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
+          <Link href="https://dynamicog.com/" >
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
+              <h1 className="text-xl font-semibold lg:text-3xl">Dynamic OG</h1>
+              <small> May 2024, dynamicog.com</small>
+              <p className="mt-2 text-base">
+                Transform Your Links into Stunning Visuals. Stand Out with Personalized OG Images.
+              </p>
+            </a>
+          </Link>
+
+          <Link href="https://sharejson.com/" >
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
+              <h1 className="text-xl font-semibold lg:text-3xl">Sharejson</h1>
+              <small> Jan 2024, sharejson.com</small>
+              <p className="mt-2 text-base">
+                Ditch coding delays! Share JSON & Mock APIs instantly, for free. No servers, no fees. Prototype apps,
+                test integrations, build demos.
+              </p>
+            </a>
+          </Link>
+
+
           <h2 className="mt-14 text-sm font-semibold uppercase  lg:mb-5 lg:mt-20">Contributions</h2>
 
           <Link href="https://github.com/KMKoushik/squeeth-portal" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">Squeeth Portal</h1>
               <small>Aug 2022 </small>
               <p className="mt-2">An alternate app to interact with squeeth contracts and a single place for all your squeeths !</p>
@@ -109,7 +121,7 @@ const Home: NextPage = () => {
           </Link>
 
           <Link href="https://github.com/code-cracked/plants-vs-zombies-api" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">Plant vs Zombies API</h1>
               <small>Feb 2022 </small>
               <p className="mt-2">An API built with with NextTS to help website builders build their websites about Plants-vs-Zombies-2</p>
@@ -118,7 +130,7 @@ const Home: NextPage = () => {
 
           <h2 className="mt-14 text-sm font-semibold uppercase  lg:mb-5 lg:mt-20">Work</h2>
           <Link href="https://www.linkedin.com/company/ipos-systems/about/" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">iPOS Systems</h1>
               <small>May 2022 - Current, Full-stack developer</small>
               <p className="mt-2"> One company, one place, one system for all payment solutions needs.</p>
@@ -126,7 +138,7 @@ const Home: NextPage = () => {
           </Link>
 
           <Link href="https://www.linkedin.com/company/varivascommunity/" passHref>
-            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl bg-stone-100 border border-stone-500 p-4 transition-all lg:p-8 duration-150 hover:shadow-sm">
+            <a rel="noreferrer" target="_blank" className="mt-4 block rounded-xl border border-stone-500 bg-stone-100 p-4 transition-all duration-150 hover:shadow-md lg:p-8">
               <h1 className="text-xl font-semibold lg:text-3xl">Varivas</h1>
               <small>May 2021 - May 2022, Full-stack developer, 1st Employee of the company</small>
               <p className="mt-2">
@@ -136,19 +148,19 @@ const Home: NextPage = () => {
           </Link>
         </div>
 
-        <div className="mb-20 leading-relaxed  text-center lg:hidden">
+        <div className="mb-20 text-center  leading-relaxed lg:hidden">
           <Link href="mailto:shrihari.uma.1999@gmail.com">
             <a className=" py-1 font-medium ">shrihari.uma.1999@gmail.com</a>
           </Link>
           <div className="mt-2 flex items-center justify-center gap-2">
             <a rel="noreferrer" href="https://twitter.com/papashrihari" target="_blank" >
-              <img src='/icons/twitter.svg' className="w-5 h-5 hover:cursor-pointer" />
+              <img src='/icons/twitter.svg' className="h-5 w-5 hover:cursor-pointer" />
             </a>
             <a rel="noreferrer" href="https://github.com/ShrihariMohan" target="_blank" >
-              <img src='/icons/github.svg' className="w-6 h-6 hover:cursor-pointer" />
+              <img src='/icons/github.svg' className="h-6 w-6 hover:cursor-pointer" />
             </a>
             <a rel="noreferrer" href="https://www.linkedin.com/in/shriharimohan/" target="_blank" >
-              <img src='/icons/linkedin.svg' className="w-6 h-6 hover:cursor-pointer" />
+              <img src='/icons/linkedin.svg' className="h-6 w-6 hover:cursor-pointer" />
             </a>
           </div>
         </div>
